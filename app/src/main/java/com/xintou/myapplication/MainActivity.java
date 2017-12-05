@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mTextView = (TextView)findViewById(R.id.tv);
         mTextView2 = (TextView)findViewById(R.id.login);
-        mTextView2 = (TextView)findViewById(R.id.update);
+        mTextView3 = (TextView)findViewById(R.id.update);
         mTextView.setText("荷兰老婆");
         mTextView2.setText("login");
         mTextView3.setText("update");
@@ -28,5 +28,9 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this,"go",Toast.LENGTH_SHORT).show();
             }
         });
+
+    }
+    public void dd(View view){
+        Toast.makeText(this,"dd",Toast.LENGTH_SHORT).show();
     }
 }
