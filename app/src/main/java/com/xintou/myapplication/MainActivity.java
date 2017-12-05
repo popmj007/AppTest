@@ -31,6 +31,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void dd(View view){
-        Toast.makeText(this,"hi 2222",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"hi 写错了修改",Toast.LENGTH_SHORT).show();
     }
 }
