@@ -31,6 +31,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void dd(View view){
-        Toast.makeText(this,"hello motor",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"hi 迪达拉",Toast.LENGTH_SHORT).show();
     }
 }
