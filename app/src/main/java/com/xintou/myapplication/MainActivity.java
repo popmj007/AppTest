@@ -8,6 +8,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView mTextView;
     private TextView mTextView2;
+    private TextView mTextView3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,7 +16,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mTextView = (TextView)findViewById(R.id.tv);
         mTextView2 = (TextView)findViewById(R.id.login);
+        mTextView2 = (TextView)findViewById(R.id.update);
         mTextView.setText("荷兰老婆");
         mTextView2.setText("login");
+        mTextView3.setText("update");
     }
 }
