@@ -2,7 +2,9 @@ package com.xintou.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,5 +22,11 @@ public class MainActivity extends AppCompatActivity {
         mTextView.setText("荷兰老婆");
         mTextView2.setText("login");
         mTextView3.setText("update");
+        mTextView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this,"go",Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }
